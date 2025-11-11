@@ -87,6 +87,11 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 32px;
+    padding-bottom: 24px;
+}
+
+.services__grid--box img {
+    display: block;
 }
 
 .services__grid--box {
@@ -103,11 +108,15 @@ body {
 }
 
 
+
+
 /*button*/
 
 .services__button {
     border: none;
     background: none;
     outline: none;
+    display: inline-flex;
+    align-items: center;
 }
 

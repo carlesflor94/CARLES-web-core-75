@@ -127,3 +127,8 @@ body {
     align-items: center;
 }
 
+.services__button:hover {
+    color: var(--grey-2);
+    opacity: 0.7;
+}
+

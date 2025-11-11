@@ -42,6 +42,10 @@ body {
     padding: 0;
 }
 
+.services--mobile {
+    display: none;
+}
+
 
 /*text styles*/
 
@@ -146,4 +150,17 @@ body {
         grid-template-columns: repeat(3, 224px);
     }
     
+}
+
+
+/*mediaQ for mobile version*/
+
+@media (max-width: 766px) {
+    .services {
+        display: none;
+    }
+
+    .services--mobile {
+        display: block;
+    }
 }

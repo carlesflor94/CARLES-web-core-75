@@ -21,15 +21,13 @@ button.addEventListener('click', () => {
 /*script mobile version*/
 
 if (document.querySelector('.services--mobile')) {
-  const swiper = new Swiper('.services__swipper', {
-    modules: [Swiper.Pagination],
+  const swiper = new Swiper('.mySwiper', {
     slidesPerView: 1,
     spaceBetween: 16,
     pagination: {
-      el: '.swipper--pagination',
+      el: '.swiper-pagination',
       clickable: true,
     },
-    
     loop: false,
   });
 }

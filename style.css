@@ -156,11 +156,35 @@ body {
 /*mediaQ for mobile version*/
 
 @media (max-width: 766px) {
-    .services {
+    .services__content {
         display: none;
     }
 
     .services--mobile {
         display: block;
     }
+}
+
+
+
+/*swiper JS*/
+
+.swiper {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  border: 1px solid var(--grey-3);
+  min-height: 72px;
+  box-sizing: border-box;
+  padding: 0 16px;
+}
+
+.swiper-pagination {
+  margin-top: 16px;
 }

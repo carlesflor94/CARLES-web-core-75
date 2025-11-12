@@ -16,3 +16,20 @@ button.addEventListener('click', () => {
     icon.src = 'img/expand-icon.svg'; 
   }
 });
+
+
+/*script mobile version*/
+
+if (document.querySelector('.services--mobile')) {
+  const swiper = new Swiper('.services__swipper', {
+    modules: [Swiper.Pagination],
+    slidesPerView: 1,
+    spaceBetween: 16,
+    pagination: {
+      el: '.swipper--pagination',
+      clickable: true,
+    },
+    
+    loop: false,
+  });
+}

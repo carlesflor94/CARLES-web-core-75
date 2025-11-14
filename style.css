@@ -177,6 +177,10 @@ body {
         word-break: keep-all;
         padding: 0;
     }
+
+    .swiper-slide {
+        width: 240px;
+    }
 }
 
 
@@ -210,8 +214,8 @@ body {
 .swiper-pagination-bullet {
     background: #d0d0d0;
     opacity: 1;
-  }
+}
 
-  .swiper-pagination-bullet-active {
+.swiper-pagination-bullet-active {
     background: var(--grey-2);
-  }
+}
